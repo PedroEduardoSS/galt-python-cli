@@ -1,3 +1,10 @@
+"""
+Esse módulo testa possíveis entradas do usuário no módulo principal main.py.
+Aqui estará a função auxiliar avaliar_resposta que será usada para testar os
+seguintes cenários:
+    1. Números inteiros
+    2. Números decimais
+"""
 import pytest
 
 def avaliar_resposta(questao, resposta, decimals=False, places=2):
